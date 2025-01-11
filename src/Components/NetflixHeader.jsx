@@ -10,7 +10,7 @@ const NetflixHeader = function () {
               variant="secondary"
               size="sm"
               title="Genres"
-              className="bg-dark"
+              className="bg-secondary"
             >
               <Dropdown.Item href="#">Comedy</Dropdown.Item>
               <Dropdown.Item href="#">Drama</Dropdown.Item>
