@@ -12,10 +12,10 @@ const NetflixFooter = function () {
       </Row>
 
       <Row className="justify-content-center align-items-center">
-        <Col lg={3}></Col>
-        <Col lg={6}>
+        <Col md={3}></Col>
+        <Col md={6}>
           <Row>
-            <Col lg={3}>
+            <Col md={3}>
               <div>
                 <p>
                   <a
@@ -55,7 +55,7 @@ const NetflixFooter = function () {
                 </p>
               </div>
             </Col>
-            <Col lg={3}>
+            <Col md={3}>
               <div className="footer-links">
                 <p>
                   <a
@@ -86,7 +86,7 @@ const NetflixFooter = function () {
                 </p>
               </div>
             </Col>
-            <Col lg={3}>
+            <Col md={3}>
               <div className="footer-links">
                 <p>
                   <a
@@ -117,7 +117,7 @@ const NetflixFooter = function () {
                 </p>
               </div>
             </Col>
-            <Col lg={3}>
+            <Col md={3}>
               <div className="footer-links">
                 <p>
                   <a
@@ -162,10 +162,8 @@ const NetflixFooter = function () {
             </Col>
           </Row>
         </Col>
-        <Col lg={3}></Col>
+        <Col md={3}></Col>
       </Row>
-
-      {/* Service Code Button */}
     </Container>
   );
 };

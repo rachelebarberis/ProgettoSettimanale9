@@ -64,13 +64,12 @@ class NetflixFilm extends Component {
           ) : (
             <Row className="justify-content-center">
               {search.map((film) => (
-                <Col sm={4} lg={2} key={film.imdbID} className="mb-3 p-1">
+                <Col xs={4} lg={2} key={film.imdbID} className="mb-3 p-1">
                   <img
                     src={film.Poster}
                     alt={film.Title}
                     className="img-fluid h-100"
                   />
-                  <p className="text-center mt-2">{film.Title}</p>
                 </Col>
               ))}
             </Row>
