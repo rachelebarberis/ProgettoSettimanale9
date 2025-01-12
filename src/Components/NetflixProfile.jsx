@@ -9,7 +9,7 @@ import {
   DropdownButton,
 } from "react-bootstrap";
 
-const EditProfile = () => {
+const NetflixProfile = function () {
   return (
     <Container fluid className="bg-dark text-white py-5">
       <Row>
@@ -107,4 +107,4 @@ const EditProfile = () => {
   );
 };
 
-export default EditProfile;
+export default NetflixProfile;
