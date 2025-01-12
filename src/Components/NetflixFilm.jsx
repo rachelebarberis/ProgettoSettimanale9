@@ -69,6 +69,10 @@ class NetflixFilm extends Component {
                     src={film.Poster}
                     alt={film.Title}
                     className="img-fluid h-100"
+                    onMouseEnter={(e) =>
+                      (e.currentTarget.style.opacity = "0.4")
+                    }
+                    onMouseLeave={(e) => (e.currentTarget.style.opacity = "1")}
                   />
                 </Col>
               ))}
