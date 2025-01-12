@@ -3,8 +3,8 @@ import "bootstrap-icons/font/bootstrap-icons.css";
 import NetflixNav from "./Components/NetflixNav";
 import NetflixFooter from "./Components/NetflixFooter";
 import NetflixHeader from "./Components/NetflixHeader";
-import NetflixFilm from "./Components/NetflixFilm";
-//import NetflixProfile from "./Components/NetflixProfile";
+//import NetflixFilm from "./Components/NetflixFilm";
+import NetflixProfile from "./Components/NetflixProfile";
 //import NetflixSettings from "./Components/NetflixSettings";
 
 function App() {
@@ -12,11 +12,12 @@ function App() {
     <>
       <NetflixNav />
       <NetflixHeader />
-      <NetflixFilm searchKey="Avengers" />
+
+      {/* <NetflixFilm searchKey="Avengers" />
       <NetflixFilm searchKey="Indiana Jones" />
       <NetflixFilm searchKey="Harry Potter" />
-      {/*<NetflixProfile />
       <NetflixSettings />*/}
+      <NetflixProfile />
       <NetflixFooter />
     </>
   );
